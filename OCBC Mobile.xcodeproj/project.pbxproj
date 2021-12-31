@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197010CD277EBEF700542F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010CC277EBEF700542F79 /* AppDelegate.swift */; };
+		197010CF277EBEF700542F79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010CE277EBEF700542F79 /* SceneDelegate.swift */; };
+		197010D1277EBEF700542F79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010D0277EBEF700542F79 /* ViewController.swift */; };
+		197010D4277EBEF700542F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197010D2277EBEF700542F79 /* Main.storyboard */; };
+		197010D6277EBEFC00542F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197010D5277EBEFC00542F79 /* Assets.xcassets */; };
+		197010D9277EBEFC00542F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197010D7277EBEFC00542F79 /* LaunchScreen.storyboard */; };
+		197010E4277EBEFD00542F79 /* OCBC_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010E3277EBEFD00542F79 /* OCBC_MobileTests.swift */; };
+		197010EF277EBEFD00542F79 /* OCBC_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010EE277EBEFD00542F79 /* OCBC_MobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		197010E0277EBEFD00542F79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197010C1277EBEF600542F79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197010C8277EBEF700542F79;
+			remoteInfo = "OCBC Mobile";
+		};
+		197010EB277EBEFD00542F79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197010C1277EBEF600542F79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197010C8277EBEF700542F79;
+			remoteInfo = "OCBC Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		197010C9277EBEF700542F79 /* OCBC Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCBC Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197010CC277EBEF700542F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		197010CE277EBEF700542F79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		197010D0277EBEF700542F79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		197010D3277EBEF700542F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		197010D5277EBEFC00542F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		197010D8277EBEFC00542F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		197010DA277EBEFC00542F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197010DF277EBEFD00542F79 /* OCBC MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCBC MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197010E3277EBEFD00542F79 /* OCBC_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCBC_MobileTests.swift; sourceTree = "<group>"; };
+		197010E5277EBEFD00542F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197010EA277EBEFD00542F79 /* OCBC MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCBC MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197010EE277EBEFD00542F79 /* OCBC_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCBC_MobileUITests.swift; sourceTree = "<group>"; };
+		197010F0277EBEFD00542F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		197010C6277EBEF700542F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197010DC277EBEFD00542F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197010E7277EBEFD00542F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197010C0277EBEF600542F79 = {
+			isa = PBXGroup;
+			children = (
+				197010CB277EBEF700542F79 /* OCBC Mobile */,
+				197010E2277EBEFD00542F79 /* OCBC MobileTests */,
+				197010ED277EBEFD00542F79 /* OCBC MobileUITests */,
+				197010CA277EBEF700542F79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		197010CA277EBEF700542F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				197010C9277EBEF700542F79 /* OCBC Mobile.app */,
+				197010DF277EBEFD00542F79 /* OCBC MobileTests.xctest */,
+				197010EA277EBEFD00542F79 /* OCBC MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		197010CB277EBEF700542F79 /* OCBC Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				197010CC277EBEF700542F79 /* AppDelegate.swift */,
+				197010CE277EBEF700542F79 /* SceneDelegate.swift */,
+				197010D0277EBEF700542F79 /* ViewController.swift */,
+				197010D2277EBEF700542F79 /* Main.storyboard */,
+				197010D5277EBEFC00542F79 /* Assets.xcassets */,
+				197010D7277EBEFC00542F79 /* LaunchScreen.storyboard */,
+				197010DA277EBEFC00542F79 /* Info.plist */,
+			);
+			path = "OCBC Mobile";
+			sourceTree = "<group>";
+		};
+		197010E2277EBEFD00542F79 /* OCBC MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				197010E3277EBEFD00542F79 /* OCBC_MobileTests.swift */,
+				197010E5277EBEFD00542F79 /* Info.plist */,
+			);
+			path = "OCBC MobileTests";
+			sourceTree = "<group>";
+		};
+		197010ED277EBEFD00542F79 /* OCBC MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				197010EE277EBEFD00542F79 /* OCBC_MobileUITests.swift */,
+				197010F0277EBEFD00542F79 /* Info.plist */,
+			);
+			path = "OCBC MobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		197010C8277EBEF700542F79 /* OCBC Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197010F3277EBEFD00542F79 /* Build configuration list for PBXNativeTarget "OCBC Mobile" */;
+			buildPhases = (
+				197010C5277EBEF700542F79 /* Sources */,
+				197010C6277EBEF700542F79 /* Frameworks */,
+				197010C7277EBEF700542F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OCBC Mobile";
+			productName = "OCBC Mobile";
+			productReference = 197010C9277EBEF700542F79 /* OCBC Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		197010DE277EBEFD00542F79 /* OCBC MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197010F6277EBEFD00542F79 /* Build configuration list for PBXNativeTarget "OCBC MobileTests" */;
+			buildPhases = (
+				197010DB277EBEFD00542F79 /* Sources */,
+				197010DC277EBEFD00542F79 /* Frameworks */,
+				197010DD277EBEFD00542F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197010E1277EBEFD00542F79 /* PBXTargetDependency */,
+			);
+			name = "OCBC MobileTests";
+			productName = "OCBC MobileTests";
+			productReference = 197010DF277EBEFD00542F79 /* OCBC MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		197010E9277EBEFD00542F79 /* OCBC MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197010F9277EBEFD00542F79 /* Build configuration list for PBXNativeTarget "OCBC MobileUITests" */;
+			buildPhases = (
+				197010E6277EBEFD00542F79 /* Sources */,
+				197010E7277EBEFD00542F79 /* Frameworks */,
+				197010E8277EBEFD00542F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197010EC277EBEFD00542F79 /* PBXTargetDependency */,
+			);
+			name = "OCBC MobileUITests";
+			productName = "OCBC MobileUITests";
+			productReference = 197010EA277EBEFD00542F79 /* OCBC MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		197010C1277EBEF600542F79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					197010C8277EBEF700542F79 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					197010DE277EBEFD00542F79 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 197010C8277EBEF700542F79;
+					};
+					197010E9277EBEFD00542F79 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 197010C8277EBEF700542F79;
+					};
+				};
+			};
+			buildConfigurationList = 197010C4277EBEF600542F79 /* Build configuration list for PBXProject "OCBC Mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 197010C0277EBEF600542F79;
+			productRefGroup = 197010CA277EBEF700542F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				197010C8277EBEF700542F79 /* OCBC Mobile */,
+				197010DE277EBEFD00542F79 /* OCBC MobileTests */,
+				197010E9277EBEFD00542F79 /* OCBC MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		197010C7277EBEF700542F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197010D9277EBEFC00542F79 /* LaunchScreen.storyboard in Resources */,
+				197010D6277EBEFC00542F79 /* Assets.xcassets in Resources */,
+				197010D4277EBEF700542F79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197010DD277EBEFD00542F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197010E8277EBEFD00542F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		197010C5277EBEF700542F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197010D1277EBEF700542F79 /* ViewController.swift in Sources */,
+				197010CD277EBEF700542F79 /* AppDelegate.swift in Sources */,
+				197010CF277EBEF700542F79 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197010DB277EBEFD00542F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197010E4277EBEFD00542F79 /* OCBC_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197010E6277EBEFD00542F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197010EF277EBEFD00542F79 /* OCBC_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		197010E1277EBEFD00542F79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 197010C8277EBEF700542F79 /* OCBC Mobile */;
+			targetProxy = 197010E0277EBEFD00542F79 /* PBXContainerItemProxy */;
+		};
+		197010EC277EBEFD00542F79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 197010C8277EBEF700542F79 /* OCBC Mobile */;
+			targetProxy = 197010EB277EBEFD00542F79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		197010D2277EBEF700542F79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				197010D3277EBEF700542F79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		197010D7277EBEFC00542F79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				197010D8277EBEFC00542F79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		197010F1277EBEFD00542F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		197010F2277EBEFD00542F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		197010F4277EBEFD00542F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCBC Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Rani.OCBC-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		197010F5277EBEFD00542F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCBC Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Rani.OCBC-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		197010F7277EBEFD00542F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCBC MobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Rani.OCBC-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCBC Mobile.app/OCBC Mobile";
+			};
+			name = Debug;
+		};
+		197010F8277EBEFD00542F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCBC MobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Rani.OCBC-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCBC Mobile.app/OCBC Mobile";
+			};
+			name = Release;
+		};
+		197010FA277EBEFD00542F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCBC MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Rani.OCBC-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCBC Mobile";
+			};
+			name = Debug;
+		};
+		197010FB277EBEFD00542F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCBC MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Rani.OCBC-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCBC Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		197010C4277EBEF600542F79 /* Build configuration list for PBXProject "OCBC Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197010F1277EBEFD00542F79 /* Debug */,
+				197010F2277EBEFD00542F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197010F3277EBEFD00542F79 /* Build configuration list for PBXNativeTarget "OCBC Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197010F4277EBEFD00542F79 /* Debug */,
+				197010F5277EBEFD00542F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197010F6277EBEFD00542F79 /* Build configuration list for PBXNativeTarget "OCBC MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197010F7277EBEFD00542F79 /* Debug */,
+				197010F8277EBEFD00542F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197010F9277EBEFD00542F79 /* Build configuration list for PBXNativeTarget "OCBC MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197010FA277EBEFD00542F79 /* Debug */,
+				197010FB277EBEFD00542F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 197010C1277EBEF600542F79 /* Project object */;
+}
