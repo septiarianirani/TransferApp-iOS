@@ -3,12 +3,9 @@
 Design Pattern : MVVM
 
 # Tools & Development Kit
-Xcode 12.5.1 (12E507)
-MacOS Big Sur 11.5.2
-Cocoapods
+MacOS Big Sur 11.5.2 - Xcode 12.5.1 (12E507) - Cocoapods
 
 # Programming Language
-Programming Type - OOP
 Swift 5
 
 # Build Config
