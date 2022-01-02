@@ -99,6 +99,12 @@ class PayeesViewController: UIViewController {
             let _ = self.viewModel.isLoading ? self.loadingStart() : self.loadingStop()
         }
         
+        viewModel.showAlert = {
+            if let errorMsg = self.viewModel.errorMessage {
+                self.view.makeToast(errorMsg, duration: 1.5, position: .bottom)
+            }
+        }
+        
         viewModel.didFinishFetchDataPayees = {
             self.payeesTableView.reloadData()
         }
@@ -154,5 +160,12 @@ extension PayeesViewController: PayeesTableViewCellDelegate {
             transferVc.viewModel.payeesData = model
             self.navigationController?.pushViewController(transferVc, animated: true)
         }
+    }
+}
+
+extension PayeesViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return true
     }
 }

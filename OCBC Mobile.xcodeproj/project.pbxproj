@@ -36,7 +36,7 @@
 		1970113327805A5000542F79 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1970113127805A5000542F79 /* TransactionTableViewCell.xib */; };
 		1970113627805B5500542F79 /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113527805B5500542F79 /* TransactionDetailViewController.swift */; };
 		1970113927805E1600542F79 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113827805E1600542F79 /* TransactionModel.swift */; };
-		1970113B2780605F00542F79 /* Extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113A2780605F00542F79 /* Extension+Int.swift */; };
+		1970113B2780605F00542F79 /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113A2780605F00542F79 /* Extension+Double.swift */; };
 		1970113E2780618B00542F79 /* MyTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113D2780618B00542F79 /* MyTransactionViewModel.swift */; };
 		197011402780662700542F79 /* TransactionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113F2780662700542F79 /* TransactionHeaderView.swift */; };
 		197011422780664700542F79 /* TransactionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 197011412780664700542F79 /* TransactionHeaderView.xib */; };
@@ -108,7 +108,7 @@
 		1970113127805A5000542F79 /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
 		1970113527805B5500542F79 /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
 		1970113827805E1600542F79 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
-		1970113A2780605F00542F79 /* Extension+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Int.swift"; sourceTree = "<group>"; };
+		1970113A2780605F00542F79 /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
 		1970113D2780618B00542F79 /* MyTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTransactionViewModel.swift; sourceTree = "<group>"; };
 		1970113F2780662700542F79 /* TransactionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHeaderView.swift; sourceTree = "<group>"; };
 		197011412780664700542F79 /* TransactionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionHeaderView.xib; sourceTree = "<group>"; };
@@ -254,7 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				1970111B277EFF2800542F79 /* Extension+DefaultsKeys.swift */,
-				1970113A2780605F00542F79 /* Extension+Int.swift */,
+				1970113A2780605F00542F79 /* Extension+Double.swift */,
 				1913F9922781D246003C5545 /* Extension+UIViewController.swift */,
 			);
 			path = Extension;
@@ -701,7 +701,7 @@
 				1970112F27804C5A00542F79 /* PayeesViewController.swift in Sources */,
 				1970113227805A5000542F79 /* TransactionTableViewCell.swift in Sources */,
 				1970113E2780618B00542F79 /* MyTransactionViewModel.swift in Sources */,
-				1970113B2780605F00542F79 /* Extension+Int.swift in Sources */,
+				1970113B2780605F00542F79 /* Extension+Double.swift in Sources */,
 				1970110C277EC03B00542F79 /* RegisterViewController.swift in Sources */,
 				1970110A277EBF9500542F79 /* SplashscreenViewController.swift in Sources */,
 				1970111A277EFF1B00542F79 /* APIConstant.swift in Sources */,
@@ -895,7 +895,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Com.Rani.OCBC-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -915,7 +915,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Com.Rani.OCBC-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

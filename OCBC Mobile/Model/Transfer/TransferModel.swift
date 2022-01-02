@@ -11,7 +11,7 @@ struct TransferModel : Codable {
     
     let status : String?
     let transactionId : String?
-    let amount : Int?
+    let amount : Double?
     let description : String?
     let recipientAccount : String?
     let errorString : String?
@@ -30,7 +30,7 @@ struct TransferModel : Codable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         status = try values.decodeIfPresent(String.self, forKey: .status)
         transactionId = try values.decodeIfPresent(String.self, forKey: .transactionId)
-        amount = try values.decodeIfPresent(Int.self, forKey: .amount)
+        amount = try values.decodeIfPresent(Double.self, forKey: .amount)
         description = try values.decodeIfPresent(String.self, forKey: .description)
         recipientAccount = try values.decodeIfPresent(String.self, forKey: .recipientAccount)
         errorString = try values.decodeIfPresent(String.self, forKey: .errorString)

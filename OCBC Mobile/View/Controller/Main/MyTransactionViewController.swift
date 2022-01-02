@@ -32,6 +32,8 @@ class MyTransactionViewController: UIViewController {
         super.viewWillAppear(animated)
         
         self.navigationController?.navigationBar.isHidden = true
+        
+        fetchBalanceData()
     }
     
     override func viewDidLoad() {
@@ -66,8 +68,6 @@ class MyTransactionViewController: UIViewController {
         if let userData = Defaults[.userData], let accountName = userData.username {
             accountNameLabel.text = accountName
         }
-        
-        fetchBalanceData()
     }
     
     // MARK: - Privates
@@ -130,6 +130,11 @@ class MyTransactionViewController: UIViewController {
             let _ = self.viewModel.isLoading ? self.loadingStart() : self.loadingStop()
         }
         
+        viewModel.showAlert = {
+            let errorMsg = self.viewModel.errorMessage ?? "Unknown error"
+            self.view.makeToast(errorMsg, duration: 1.5, position: .bottom)
+        }
+        
         viewModel.didFinishFetchDataBalance = {
             //setup balance view
             self.accountNoLabel.text = "Account No : " + (self.viewModel.balanceData?.accountNo ?? "-")
@@ -144,6 +149,12 @@ class MyTransactionViewController: UIViewController {
         
         viewModel.updateLoading = {
             let _ = self.viewModel.isLoading ? self.loadingStart() : self.loadingStop()
+        }
+        
+        viewModel.showAlert = {
+            if let errorMsg = self.viewModel.errorMessage {
+                self.view.makeToast(errorMsg, duration: 1.5, position: .bottom)
+            }
         }
         
         viewModel.didFinishFetchDataTransaction = {

@@ -32,7 +32,7 @@ struct TransactionModel : Codable {
 struct TransactionDataModel : Codable {
     
     let transactionId : String?
-    let amount : Float?
+    let amount : Double?
     let transactionDate : String?
     let description : String?
     let transactionType : String?
@@ -51,7 +51,7 @@ struct TransactionDataModel : Codable {
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         transactionId = try values.decodeIfPresent(String.self, forKey: .transactionId)
-        amount = try values.decodeIfPresent(Float.self, forKey: .amount)
+        amount = try values.decodeIfPresent(Double.self, forKey: .amount)
         transactionDate = try values.decodeIfPresent(String.self, forKey: .transactionDate)
         description = try values.decodeIfPresent(String.self, forKey: .description)
         transactionType = try values.decodeIfPresent(String.self, forKey: .transactionType)

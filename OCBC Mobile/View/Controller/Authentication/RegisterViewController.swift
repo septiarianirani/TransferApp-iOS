@@ -130,4 +130,9 @@ extension RegisterViewController: UITextFieldDelegate {
             break
         }
     }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return true
+    }
 }

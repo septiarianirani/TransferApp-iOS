@@ -51,6 +51,9 @@ class CreateTransferViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let payeeName:String = viewModel.payeesData?.name ?? "-"
+        let payeeNo:String = viewModel.payeesData?.accountNo ?? "-"
+        payeesField.text = payeeName + " (" + payeeNo + ")"
         payeesField.isEnabled = false
         descriptionTextView.contentInset = UIEdgeInsets(top: 8, left: 10, bottom: 10, right: 10)
         transferBtn.addTarget(self, action: #selector(transferBtnDidPressed), for: .touchDown)
@@ -77,7 +80,7 @@ class CreateTransferViewController: UIViewController {
     @objc func transferBtnDidPressed() {
         guard let payees = self.viewModel.payeesData, let accountNo = payees.accountNo else { return }
         
-        guard let amountStr = amountField.text, amountStr != "0", let amount = Float(amountStr) as? Float else {
+        guard let amountStr = amountField.text, amountStr != "0", let amount = Double(amountStr) as? Double else {
             self.view.makeToast("Minimum amount is 1", duration: 1.5, position: .bottom)
             return
         }
@@ -101,6 +104,12 @@ class CreateTransferViewController: UIViewController {
             let _ = self.viewModel.isLoading ? self.loadingStart() : self.loadingStop()
         }
         
+        viewModel.showAlert = {
+            if let errorMsg = self.viewModel.errorMessage {
+                self.view.makeToast(errorMsg, duration: 1.5, position: .bottom)
+            }
+        }
+        
         viewModel.didFinishFetchDataTransfer = {
             let successMessage: String = "Successfully Transfered to " + (self.viewModel.payeesData?.name ?? "-")
             self.view.makeToast(successMessage, duration: 2.0, position: .bottom)
@@ -120,4 +129,30 @@ class CreateTransferViewController: UIViewController {
     }
     */
 
+}
+
+extension CreateTransferViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return true
+    }
+}
+
+extension CreateTransferViewController: UITextViewDelegate {
+    func textViewDidEndEditing(_ textView: UITextView) {
+        textView.endEditing(true)
+    }
+    
+    func textViewShouldEndEditing(_ textView: UITextView) -> Bool {
+        textView.endEditing(true)
+        return true
+    }
+    
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if(text == "\n") {
+            textView.resignFirstResponder()
+            return false
+        }
+        return true
+    }
 }

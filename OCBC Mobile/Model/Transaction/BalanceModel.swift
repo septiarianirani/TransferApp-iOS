@@ -11,7 +11,7 @@ struct BalanceModel : Codable {
     
     let status : String?
     let accountNo : String?
-    let balance : Float?
+    let balance : Double?
     let errorString : String?
 
     enum CodingKeys: String, CodingKey {
@@ -26,7 +26,7 @@ struct BalanceModel : Codable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         status = try values.decodeIfPresent(String.self, forKey: .status)
         accountNo = try values.decodeIfPresent(String.self, forKey: .accountNo)
-        balance = try values.decodeIfPresent(Float.self, forKey: .balance)
+        balance = try values.decodeIfPresent(Double.self, forKey: .balance)
         errorString = try values.decodeIfPresent(String.self, forKey: .errorString)
     }
 
