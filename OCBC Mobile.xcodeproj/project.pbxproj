@@ -3,18 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1913F9932781D246003C5545 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913F9922781D246003C5545 /* Extension+UIViewController.swift */; };
 		197010CD277EBEF700542F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010CC277EBEF700542F79 /* AppDelegate.swift */; };
 		197010CF277EBEF700542F79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010CE277EBEF700542F79 /* SceneDelegate.swift */; };
-		197010D1277EBEF700542F79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010D0277EBEF700542F79 /* ViewController.swift */; };
-		197010D4277EBEF700542F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197010D2277EBEF700542F79 /* Main.storyboard */; };
 		197010D6277EBEFC00542F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197010D5277EBEFC00542F79 /* Assets.xcassets */; };
 		197010D9277EBEFC00542F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197010D7277EBEFC00542F79 /* LaunchScreen.storyboard */; };
 		197010E4277EBEFD00542F79 /* OCBC_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010E3277EBEFD00542F79 /* OCBC_MobileTests.swift */; };
 		197010EF277EBEFD00542F79 /* OCBC_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197010EE277EBEFD00542F79 /* OCBC_MobileUITests.swift */; };
+		19701108277EBF8A00542F79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701107277EBF8A00542F79 /* LoginViewController.swift */; };
+		1970110A277EBF9500542F79 /* SplashscreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701109277EBF9500542F79 /* SplashscreenViewController.swift */; };
+		1970110C277EC03B00542F79 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970110B277EC03B00542F79 /* RegisterViewController.swift */; };
+		1970110F277EDBBE00542F79 /* MyTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970110E277EDBBE00542F79 /* MyTransactionViewController.swift */; };
+		19701111277EDBD700542F79 /* CreateTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701110277EDBD700542F79 /* CreateTransferViewController.swift */; };
+		19701114277EF7D200542F79 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701113277EF7D200542F79 /* LoginViewModel.swift */; };
+		19701116277EFE5400542F79 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701115277EFE5400542F79 /* DataService.swift */; };
+		19701118277EFE7C00542F79 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701117277EFE7C00542F79 /* APIConfig.swift */; };
+		1970111A277EFF1B00542F79 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701119277EFF1B00542F79 /* APIConstant.swift */; };
+		1970111C277EFF2800542F79 /* Extension+DefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970111B277EFF2800542F79 /* Extension+DefaultsKeys.swift */; };
+		1970111F277F054C00542F79 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970111E277F054C00542F79 /* LoginModel.swift */; };
+		19701121277F05E100542F79 /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701120277F05E100542F79 /* ResponseParser.swift */; };
+		19701123277F074400542F79 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701122277F074400542F79 /* APIManager.swift */; };
+		19701125277F935A00542F79 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701124277F935A00542F79 /* RegisterModel.swift */; };
+		19701127277F93C300542F79 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701126277F93C300542F79 /* RegisterViewModel.swift */; };
+		19701129277F97AC00542F79 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19701128277F97AC00542F79 /* Authentication.storyboard */; };
+		1970112D277FAC3300542F79 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970112C277FAC3300542F79 /* LoginTests.swift */; };
+		1970112F27804C5A00542F79 /* PayeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970112E27804C5A00542F79 /* PayeesViewController.swift */; };
+		1970113227805A5000542F79 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113027805A5000542F79 /* TransactionTableViewCell.swift */; };
+		1970113327805A5000542F79 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1970113127805A5000542F79 /* TransactionTableViewCell.xib */; };
+		1970113627805B5500542F79 /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113527805B5500542F79 /* TransactionDetailViewController.swift */; };
+		1970113927805E1600542F79 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113827805E1600542F79 /* TransactionModel.swift */; };
+		1970113B2780605F00542F79 /* Extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113A2780605F00542F79 /* Extension+Int.swift */; };
+		1970113E2780618B00542F79 /* MyTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113D2780618B00542F79 /* MyTransactionViewModel.swift */; };
+		197011402780662700542F79 /* TransactionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970113F2780662700542F79 /* TransactionHeaderView.swift */; };
+		197011422780664700542F79 /* TransactionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 197011412780664700542F79 /* TransactionHeaderView.xib */; };
+		19701144278067B300542F79 /* BalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701143278067B300542F79 /* BalanceModel.swift */; };
+		197011482780758D00542F79 /* PayeesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197011472780758D00542F79 /* PayeesViewModel.swift */; };
+		1970114B2780760200542F79 /* PayeesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970114A2780760200542F79 /* PayeesModel.swift */; };
+		1970114E27807A7B00542F79 /* PayeesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970114C27807A7B00542F79 /* PayeesTableViewCell.swift */; };
+		1970114F27807A7B00542F79 /* PayeesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1970114D27807A7B00542F79 /* PayeesTableViewCell.xib */; };
+		1970115327811B6200542F79 /* Transfer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1970115227811B6200542F79 /* Transfer.storyboard */; };
+		1970115527811CF100542F79 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1970115427811CF100542F79 /* Home.storyboard */; };
+		19701157278171D700542F79 /* TransactionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19701156278171D700542F79 /* TransactionDetailViewModel.swift */; };
+		197011592781BAD000542F79 /* CreateTransferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197011582781BACF00542F79 /* CreateTransferViewModel.swift */; };
+		1970115B2781BB9800542F79 /* TransferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970115A2781BB9800542F79 /* TransferModel.swift */; };
+		408A378C6EC8F3DAE8F8479D /* Pods_OCBC_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E59DADF2D86E9AA519A75C /* Pods_OCBC_Mobile.framework */; };
+		5D32450137507E6CC23A9BEF /* Pods_OCBC_Mobile_OCBC_MobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67EF8AC78D4725EC0280E69 /* Pods_OCBC_Mobile_OCBC_MobileUITests.framework */; };
+		D33D8C52945D7430080099B2 /* Pods_OCBC_MobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6719D127EF4E1DA62810B98 /* Pods_OCBC_MobileTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +73,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1913F9922781D246003C5545 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
 		197010C9277EBEF700542F79 /* OCBC Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCBC Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		197010CC277EBEF700542F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		197010CE277EBEF700542F79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		197010D0277EBEF700542F79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		197010D3277EBEF700542F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		197010D5277EBEFC00542F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		197010D8277EBEFC00542F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		197010DA277EBEFC00542F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +86,51 @@
 		197010EA277EBEFD00542F79 /* OCBC MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCBC MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		197010EE277EBEFD00542F79 /* OCBC_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCBC_MobileUITests.swift; sourceTree = "<group>"; };
 		197010F0277EBEFD00542F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19701107277EBF8A00542F79 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		19701109277EBF9500542F79 /* SplashscreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashscreenViewController.swift; sourceTree = "<group>"; };
+		1970110B277EC03B00542F79 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1970110E277EDBBE00542F79 /* MyTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTransactionViewController.swift; sourceTree = "<group>"; };
+		19701110277EDBD700542F79 /* CreateTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransferViewController.swift; sourceTree = "<group>"; };
+		19701113277EF7D200542F79 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		19701115277EFE5400542F79 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		19701117277EFE7C00542F79 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		19701119277EFF1B00542F79 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		1970111B277EFF2800542F79 /* Extension+DefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+DefaultsKeys.swift"; sourceTree = "<group>"; };
+		1970111E277F054C00542F79 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		19701120277F05E100542F79 /* ResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParser.swift; sourceTree = "<group>"; };
+		19701122277F074400542F79 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		19701124277F935A00542F79 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		19701126277F93C300542F79 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		19701128277F97AC00542F79 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		1970112C277FAC3300542F79 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		1970112E27804C5A00542F79 /* PayeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeesViewController.swift; sourceTree = "<group>"; };
+		1970113027805A5000542F79 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		1970113127805A5000542F79 /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		1970113527805B5500542F79 /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
+		1970113827805E1600542F79 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		1970113A2780605F00542F79 /* Extension+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Int.swift"; sourceTree = "<group>"; };
+		1970113D2780618B00542F79 /* MyTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTransactionViewModel.swift; sourceTree = "<group>"; };
+		1970113F2780662700542F79 /* TransactionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHeaderView.swift; sourceTree = "<group>"; };
+		197011412780664700542F79 /* TransactionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionHeaderView.xib; sourceTree = "<group>"; };
+		19701143278067B300542F79 /* BalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceModel.swift; sourceTree = "<group>"; };
+		197011472780758D00542F79 /* PayeesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeesViewModel.swift; sourceTree = "<group>"; };
+		1970114A2780760200542F79 /* PayeesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeesModel.swift; sourceTree = "<group>"; };
+		1970114C27807A7B00542F79 /* PayeesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeesTableViewCell.swift; sourceTree = "<group>"; };
+		1970114D27807A7B00542F79 /* PayeesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayeesTableViewCell.xib; sourceTree = "<group>"; };
+		1970115227811B6200542F79 /* Transfer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transfer.storyboard; sourceTree = "<group>"; };
+		1970115427811CF100542F79 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		19701156278171D700542F79 /* TransactionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewModel.swift; sourceTree = "<group>"; };
+		197011582781BACF00542F79 /* CreateTransferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransferViewModel.swift; sourceTree = "<group>"; };
+		1970115A2781BB9800542F79 /* TransferModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferModel.swift; sourceTree = "<group>"; };
+		39CF8FB3DD5CDC552833ACA3 /* Pods-OCBC Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCBC Mobile.release.xcconfig"; path = "Target Support Files/Pods-OCBC Mobile/Pods-OCBC Mobile.release.xcconfig"; sourceTree = "<group>"; };
+		42E59DADF2D86E9AA519A75C /* Pods_OCBC_Mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCBC_Mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BBEC69A8E70BECDC099F48 /* Pods-OCBC MobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCBC MobileTests.release.xcconfig"; path = "Target Support Files/Pods-OCBC MobileTests/Pods-OCBC MobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		72BB430DF679D166AE9ACA22 /* Pods-OCBC Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCBC Mobile.debug.xcconfig"; path = "Target Support Files/Pods-OCBC Mobile/Pods-OCBC Mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		778031F9E00409200DB2F489 /* Pods-OCBC Mobile-OCBC MobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCBC Mobile-OCBC MobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCBC Mobile-OCBC MobileUITests/Pods-OCBC Mobile-OCBC MobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E6F6BA512662F4AA7377F6B /* Pods-OCBC Mobile-OCBC MobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCBC Mobile-OCBC MobileUITests.release.xcconfig"; path = "Target Support Files/Pods-OCBC Mobile-OCBC MobileUITests/Pods-OCBC Mobile-OCBC MobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6719D127EF4E1DA62810B98 /* Pods_OCBC_MobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCBC_MobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67EF8AC78D4725EC0280E69 /* Pods_OCBC_Mobile_OCBC_MobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCBC_Mobile_OCBC_MobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F1091FDD7E1B54FFAC32F4 /* Pods-OCBC MobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCBC MobileTests.debug.xcconfig"; path = "Target Support Files/Pods-OCBC MobileTests/Pods-OCBC MobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408A378C6EC8F3DAE8F8479D /* Pods_OCBC_Mobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33D8C52945D7430080099B2 /* Pods_OCBC_MobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D32450137507E6CC23A9BEF /* Pods_OCBC_Mobile_OCBC_MobileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +168,8 @@
 				197010E2277EBEFD00542F79 /* OCBC MobileTests */,
 				197010ED277EBEFD00542F79 /* OCBC MobileUITests */,
 				197010CA277EBEF700542F79 /* Products */,
+				4D3D15167A3229887E421CE1 /* Pods */,
+				D9458104EB5F45526A813CF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +186,18 @@
 		197010CB277EBEF700542F79 /* OCBC Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				19701101277EBF3400542F79 /* Support */,
+				19701100277EBF2F00542F79 /* Network */,
+				197010FF277EBF2800542F79 /* Extension */,
+				197010FE277EBF1400542F79 /* Model */,
+				197010FD277EBF0F00542F79 /* View */,
+				197010FC277EBF0300542F79 /* ViewModel */,
 				197010CC277EBEF700542F79 /* AppDelegate.swift */,
 				197010CE277EBEF700542F79 /* SceneDelegate.swift */,
-				197010D0277EBEF700542F79 /* ViewController.swift */,
-				197010D2277EBEF700542F79 /* Main.storyboard */,
 				197010D5277EBEFC00542F79 /* Assets.xcassets */,
 				197010D7277EBEFC00542F79 /* LaunchScreen.storyboard */,
 				197010DA277EBEFC00542F79 /* Info.plist */,
+				1970112C277FAC3300542F79 /* LoginTests.swift */,
 			);
 			path = "OCBC Mobile";
 			sourceTree = "<group>";
@@ -128,6 +220,227 @@
 			path = "OCBC MobileUITests";
 			sourceTree = "<group>";
 		};
+		197010FC277EBF0300542F79 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				197011462780757C00542F79 /* Transfer */,
+				1970113C2780617C00542F79 /* Main */,
+				19701112277EF7C500542F79 /* Authentication */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		197010FD277EBF0F00542F79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19701104277EBF4300542F79 /* Storyboard */,
+				19701103277EBF3E00542F79 /* Cell */,
+				19701102277EBF3A00542F79 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		197010FE277EBF1400542F79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19701149278075ED00542F79 /* Transfer */,
+				1970113727805E0800542F79 /* Transaction */,
+				1970111D277F054000542F79 /* Authentication */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		197010FF277EBF2800542F79 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1970111B277EFF2800542F79 /* Extension+DefaultsKeys.swift */,
+				1970113A2780605F00542F79 /* Extension+Int.swift */,
+				1913F9922781D246003C5545 /* Extension+UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		19701100277EBF2F00542F79 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				19701115277EFE5400542F79 /* DataService.swift */,
+				19701117277EFE7C00542F79 /* APIConfig.swift */,
+				19701119277EFF1B00542F79 /* APIConstant.swift */,
+				19701120277F05E100542F79 /* ResponseParser.swift */,
+				19701122277F074400542F79 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		19701101277EBF3400542F79 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		19701102277EBF3A00542F79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19701109277EBF9500542F79 /* SplashscreenViewController.swift */,
+				19701105277EBF6A00542F79 /* Authentication */,
+				1970110D277EDB9200542F79 /* Main */,
+				1970113427805B1F00542F79 /* Transfer */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		19701103277EBF3E00542F79 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1970113027805A5000542F79 /* TransactionTableViewCell.swift */,
+				1970113127805A5000542F79 /* TransactionTableViewCell.xib */,
+				1970113F2780662700542F79 /* TransactionHeaderView.swift */,
+				197011412780664700542F79 /* TransactionHeaderView.xib */,
+				1970114C27807A7B00542F79 /* PayeesTableViewCell.swift */,
+				1970114D27807A7B00542F79 /* PayeesTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		19701104277EBF4300542F79 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1970115127811B4D00542F79 /* Transfer */,
+				1970115027811B4200542F79 /* Main */,
+				19701106277EBF7600542F79 /* Authentication */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		19701105277EBF6A00542F79 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				19701107277EBF8A00542F79 /* LoginViewController.swift */,
+				1970110B277EC03B00542F79 /* RegisterViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		19701106277EBF7600542F79 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				19701128277F97AC00542F79 /* Authentication.storyboard */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		1970110D277EDB9200542F79 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1970110E277EDBBE00542F79 /* MyTransactionViewController.swift */,
+				1970113527805B5500542F79 /* TransactionDetailViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		19701112277EF7C500542F79 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				19701113277EF7D200542F79 /* LoginViewModel.swift */,
+				19701126277F93C300542F79 /* RegisterViewModel.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		1970111D277F054000542F79 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				1970111E277F054C00542F79 /* LoginModel.swift */,
+				19701124277F935A00542F79 /* RegisterModel.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		1970113427805B1F00542F79 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				1970112E27804C5A00542F79 /* PayeesViewController.swift */,
+				19701110277EDBD700542F79 /* CreateTransferViewController.swift */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		1970113727805E0800542F79 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				1970113827805E1600542F79 /* TransactionModel.swift */,
+				19701143278067B300542F79 /* BalanceModel.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		1970113C2780617C00542F79 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1970113D2780618B00542F79 /* MyTransactionViewModel.swift */,
+				19701156278171D700542F79 /* TransactionDetailViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		197011462780757C00542F79 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				197011472780758D00542F79 /* PayeesViewModel.swift */,
+				197011582781BACF00542F79 /* CreateTransferViewModel.swift */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		19701149278075ED00542F79 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				1970114A2780760200542F79 /* PayeesModel.swift */,
+				1970115A2781BB9800542F79 /* TransferModel.swift */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		1970115027811B4200542F79 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1970115427811CF100542F79 /* Home.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1970115127811B4D00542F79 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				1970115227811B6200542F79 /* Transfer.storyboard */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		4D3D15167A3229887E421CE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72BB430DF679D166AE9ACA22 /* Pods-OCBC Mobile.debug.xcconfig */,
+				39CF8FB3DD5CDC552833ACA3 /* Pods-OCBC Mobile.release.xcconfig */,
+				778031F9E00409200DB2F489 /* Pods-OCBC Mobile-OCBC MobileUITests.debug.xcconfig */,
+				9E6F6BA512662F4AA7377F6B /* Pods-OCBC Mobile-OCBC MobileUITests.release.xcconfig */,
+				A6F1091FDD7E1B54FFAC32F4 /* Pods-OCBC MobileTests.debug.xcconfig */,
+				54BBEC69A8E70BECDC099F48 /* Pods-OCBC MobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9458104EB5F45526A813CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42E59DADF2D86E9AA519A75C /* Pods_OCBC_Mobile.framework */,
+				A67EF8AC78D4725EC0280E69 /* Pods_OCBC_Mobile_OCBC_MobileUITests.framework */,
+				A6719D127EF4E1DA62810B98 /* Pods_OCBC_MobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +448,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 197010F3277EBEFD00542F79 /* Build configuration list for PBXNativeTarget "OCBC Mobile" */;
 			buildPhases = (
+				4BA76D74E8072A7425250255 /* [CP] Check Pods Manifest.lock */,
 				197010C5277EBEF700542F79 /* Sources */,
 				197010C6277EBEF700542F79 /* Frameworks */,
 				197010C7277EBEF700542F79 /* Resources */,
+				3D12E671D281B9A8CFF686CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +467,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 197010F6277EBEFD00542F79 /* Build configuration list for PBXNativeTarget "OCBC MobileTests" */;
 			buildPhases = (
+				212679FE0909EC9FE3FAE635 /* [CP] Check Pods Manifest.lock */,
 				197010DB277EBEFD00542F79 /* Sources */,
 				197010DC277EBEFD00542F79 /* Frameworks */,
 				197010DD277EBEFD00542F79 /* Resources */,
@@ -170,9 +486,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 197010F9277EBEFD00542F79 /* Build configuration list for PBXNativeTarget "OCBC MobileUITests" */;
 			buildPhases = (
+				68E8B58FEB97B846D9FF7068 /* [CP] Check Pods Manifest.lock */,
 				197010E6277EBEFD00542F79 /* Sources */,
 				197010E7277EBEFD00542F79 /* Frameworks */,
 				197010E8277EBEFD00542F79 /* Resources */,
+				93A76AA96FC0EB9DB118EC80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +549,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19701129277F97AC00542F79 /* Authentication.storyboard in Resources */,
+				197011422780664700542F79 /* TransactionHeaderView.xib in Resources */,
+				1970114F27807A7B00542F79 /* PayeesTableViewCell.xib in Resources */,
 				197010D9277EBEFC00542F79 /* LaunchScreen.storyboard in Resources */,
+				1970115327811B6200542F79 /* Transfer.storyboard in Resources */,
+				1970113327805A5000542F79 /* TransactionTableViewCell.xib in Resources */,
 				197010D6277EBEFC00542F79 /* Assets.xcassets in Resources */,
-				197010D4277EBEF700542F79 /* Main.storyboard in Resources */,
+				1970115527811CF100542F79 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +576,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		212679FE0909EC9FE3FAE635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCBC MobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D12E671D281B9A8CFF686CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCBC Mobile/Pods-OCBC Mobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCBC Mobile/Pods-OCBC Mobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCBC Mobile/Pods-OCBC Mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BA76D74E8072A7425250255 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCBC Mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E8B58FEB97B846D9FF7068 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCBC Mobile-OCBC MobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A76AA96FC0EB9DB118EC80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCBC Mobile-OCBC MobileUITests/Pods-OCBC Mobile-OCBC MobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCBC Mobile-OCBC MobileUITests/Pods-OCBC Mobile-OCBC MobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCBC Mobile-OCBC MobileUITests/Pods-OCBC Mobile-OCBC MobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		197010C5277EBEF700542F79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				197010D1277EBEF700542F79 /* ViewController.swift in Sources */,
+				1913F9932781D246003C5545 /* Extension+UIViewController.swift in Sources */,
+				19701123277F074400542F79 /* APIManager.swift in Sources */,
+				1970110F277EDBBE00542F79 /* MyTransactionViewController.swift in Sources */,
+				1970114E27807A7B00542F79 /* PayeesTableViewCell.swift in Sources */,
+				1970111F277F054C00542F79 /* LoginModel.swift in Sources */,
+				19701157278171D700542F79 /* TransactionDetailViewModel.swift in Sources */,
+				19701111277EDBD700542F79 /* CreateTransferViewController.swift in Sources */,
+				19701144278067B300542F79 /* BalanceModel.swift in Sources */,
+				19701108277EBF8A00542F79 /* LoginViewController.swift in Sources */,
+				19701121277F05E100542F79 /* ResponseParser.swift in Sources */,
+				19701127277F93C300542F79 /* RegisterViewModel.swift in Sources */,
+				19701118277EFE7C00542F79 /* APIConfig.swift in Sources */,
+				197011592781BAD000542F79 /* CreateTransferViewModel.swift in Sources */,
 				197010CD277EBEF700542F79 /* AppDelegate.swift in Sources */,
+				1970112F27804C5A00542F79 /* PayeesViewController.swift in Sources */,
+				1970113227805A5000542F79 /* TransactionTableViewCell.swift in Sources */,
+				1970113E2780618B00542F79 /* MyTransactionViewModel.swift in Sources */,
+				1970113B2780605F00542F79 /* Extension+Int.swift in Sources */,
+				1970110C277EC03B00542F79 /* RegisterViewController.swift in Sources */,
+				1970110A277EBF9500542F79 /* SplashscreenViewController.swift in Sources */,
+				1970111A277EFF1B00542F79 /* APIConstant.swift in Sources */,
+				197011402780662700542F79 /* TransactionHeaderView.swift in Sources */,
 				197010CF277EBEF700542F79 /* SceneDelegate.swift in Sources */,
+				1970115B2781BB9800542F79 /* TransferModel.swift in Sources */,
+				19701125277F935A00542F79 /* RegisterModel.swift in Sources */,
+				1970113627805B5500542F79 /* TransactionDetailViewController.swift in Sources */,
+				19701114277EF7D200542F79 /* LoginViewModel.swift in Sources */,
+				1970114B2780760200542F79 /* PayeesModel.swift in Sources */,
+				1970113927805E1600542F79 /* TransactionModel.swift in Sources */,
+				197011482780758D00542F79 /* PayeesViewModel.swift in Sources */,
+				19701116277EFE5400542F79 /* DataService.swift in Sources */,
+				1970111C277EFF2800542F79 /* Extension+DefaultsKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +724,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				197010E4277EBEFD00542F79 /* OCBC_MobileTests.swift in Sources */,
+				1970112D277FAC3300542F79 /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +752,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		197010D2277EBEF700542F79 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				197010D3277EBEF700542F79 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		197010D7277EBEFC00542F79 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,11 +881,13 @@
 		};
 		197010F4277EBEFD00542F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BB430DF679D166AE9ACA22 /* Pods-OCBC Mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OCBC Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +901,13 @@
 		};
 		197010F5277EBEFD00542F79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CF8FB3DD5CDC552833ACA3 /* Pods-OCBC Mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OCBC Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +921,7 @@
 		};
 		197010F7277EBEFD00542F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F1091FDD7E1B54FFAC32F4 /* Pods-OCBC MobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +943,7 @@
 		};
 		197010F8277EBEFD00542F79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BBEC69A8E70BECDC099F48 /* Pods-OCBC MobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +965,7 @@
 		};
 		197010FA277EBEFD00542F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778031F9E00409200DB2F489 /* Pods-OCBC Mobile-OCBC MobileUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +985,7 @@
 		};
 		197010FB277EBEFD00542F79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6F6BA512662F4AA7377F6B /* Pods-OCBC Mobile-OCBC MobileUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

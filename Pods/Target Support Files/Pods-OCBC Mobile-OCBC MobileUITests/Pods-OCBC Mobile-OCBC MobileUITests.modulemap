@@ -1,0 +1,6 @@
+framework module Pods_OCBC_Mobile_OCBC_MobileUITests {
+  umbrella header "Pods-OCBC Mobile-OCBC MobileUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

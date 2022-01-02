@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TransactionTableViewCell" customModule="OCBC_Mobile" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X0M-0e-nT4">
+                        <rect key="frame" x="16" y="8" width="343" height="128"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22 September 2021" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sp1-be-Yco">
+                                <rect key="frame" x="16" y="10" width="97.5" height="13"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account No : 7174-429-2937" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9c-GQ-i7Z">
+                                <rect key="frame" x="16" y="31" width="156.5" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emmie" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9Z-5O-qHs">
+                                <rect key="frame" x="16" y="49" width="311" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SGD 50,161" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7aw-fx-UTv">
+                                <rect key="frame" x="176" y="75" width="151" height="30"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="26"/>
+                                <color key="textColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbE-cT-POC">
+                                <rect key="frame" x="0.0" y="0.0" width="343" height="128"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z9c-GQ-i7Z" firstAttribute="top" secondItem="Sp1-be-Yco" secondAttribute="bottom" constant="8" id="4rG-MB-LpP"/>
+                            <constraint firstItem="Z9c-GQ-i7Z" firstAttribute="leading" secondItem="Sp1-be-Yco" secondAttribute="leading" id="54e-bl-ZmL"/>
+                            <constraint firstItem="7aw-fx-UTv" firstAttribute="top" secondItem="M9Z-5O-qHs" secondAttribute="bottom" constant="8" id="J1u-lP-OB4"/>
+                            <constraint firstItem="M9Z-5O-qHs" firstAttribute="leading" secondItem="X0M-0e-nT4" secondAttribute="leading" constant="16" id="LWa-nz-KHc"/>
+                            <constraint firstItem="Sp1-be-Yco" firstAttribute="leading" secondItem="X0M-0e-nT4" secondAttribute="leading" constant="16" id="U3Z-Fc-wtS"/>
+                            <constraint firstAttribute="bottom" secondItem="NbE-cT-POC" secondAttribute="bottom" id="UIv-9g-FcO"/>
+                            <constraint firstAttribute="trailing" secondItem="M9Z-5O-qHs" secondAttribute="trailing" constant="16" id="WT8-7M-4U2"/>
+                            <constraint firstItem="M9Z-5O-qHs" firstAttribute="top" secondItem="Z9c-GQ-i7Z" secondAttribute="bottom" constant="4" id="WrD-NO-BRt"/>
+                            <constraint firstItem="NbE-cT-POC" firstAttribute="leading" secondItem="X0M-0e-nT4" secondAttribute="leading" id="akc-xW-aDW"/>
+                            <constraint firstItem="NbE-cT-POC" firstAttribute="top" secondItem="X0M-0e-nT4" secondAttribute="top" id="bko-aI-og8"/>
+                            <constraint firstAttribute="trailing" secondItem="NbE-cT-POC" secondAttribute="trailing" id="pNa-46-RUy"/>
+                            <constraint firstItem="Sp1-be-Yco" firstAttribute="top" secondItem="X0M-0e-nT4" secondAttribute="top" constant="10" id="xmz-Y3-nth"/>
+                            <constraint firstAttribute="trailing" secondItem="7aw-fx-UTv" secondAttribute="trailing" constant="16" id="yU3-hK-A8j"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="X0M-0e-nT4" secondAttribute="bottom" constant="8" id="VOR-Xe-Jhb"/>
+                    <constraint firstItem="X0M-0e-nT4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="hia-hH-Tnm"/>
+                    <constraint firstItem="X0M-0e-nT4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="sSD-lV-toP"/>
+                    <constraint firstAttribute="trailing" secondItem="X0M-0e-nT4" secondAttribute="trailing" constant="16" id="u54-j1-b7x"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="receipientNameLabel" destination="M9Z-5O-qHs" id="Gar-jl-WYA"/>
+                <outlet property="receipientNoLabel" destination="Z9c-GQ-i7Z" id="QSi-UR-a5O"/>
+                <outlet property="transactionAmountLabel" destination="7aw-fx-UTv" id="uCe-l2-ruU"/>
+                <outlet property="transactionBtn" destination="NbE-cT-POC" id="hVU-AZ-wfD"/>
+                <outlet property="transactionContentView" destination="X0M-0e-nT4" id="JmZ-13-Vss"/>
+                <outlet property="transactionDateLabel" destination="Sp1-be-Yco" id="nHV-F9-UWu"/>
+            </connections>
+            <point key="canvasLocation" x="-6" y="94"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
